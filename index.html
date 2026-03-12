@@ -297,6 +297,16 @@
         .fade-in-section {
             animation: fadeIn 1.5s ease-out forwards;
         }
+
+        /* 移动端适配 */
+        @media (max-width: 768px) {
+            .hero {
+                background-size: contain;
+                background-position: top center;
+                background-attachment: scroll;
+                background-repeat: no-repeat;
+            }
+        }
     </style>
 </head>
 
